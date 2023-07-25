@@ -4,7 +4,6 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const cors = require('cors');
 const swaggerUi = require('swagger-ui-express');
-const swaggerFile = require('./swagger/swagger_output.json');
 const swaggerOptions = { customCssUrl: '/swagger-ui.css'}
 const routes = require('./src/routes');
 const authDocProducao = require('./src/middlewares/authDoc');
